@@ -1,0 +1,19 @@
+Extremly easy tcposc OSC animation examples.
+
+Examples are in Rebol
+http://rebol.com 
+
+jmonome.r :
+
+rebol jmonome.r
+
+Display a short animation on monome LEDs (8x8). Monomeserial is mandatory. As is, monome address must be set to /40h and monomeserial listening port to 8000. All these parameters can be changed by text editing jmonome.r. 
+
+jtouchosc.r :
+
+rebol jtouchosc.r
+
+Display a longer animation on iPAD/iPhone. TouchOSC is mandatory, the two different setups display a 8x8 grid like monome 40h. You need to edit in jtouchosc.r the oscipOUT and osciportOUT lines accordingly to match the iPad/iPhone network adress.
+
+
+Have fun !
