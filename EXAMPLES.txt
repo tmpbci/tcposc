@@ -1,6 +1,6 @@
 Extremly easy tcposc OSC animation examples.
 
-Examples are in Rebol
+Examples are in Rebol 2 and need tcposc to be previously launched
 http://rebol.com 
 
 jmonome.r :
